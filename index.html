@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,24 +45,25 @@
         <!--info section-->
         <div>
           <ul class="header__info">
-            <li>
-              <a class="header__mail" href="mailto:info@devstudio.com"
+            <li><svg class="icon1"><use href="./images/symbol-defs.svg#icon-mail"></svg>
+              <a class="header__mail"  href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li><a href="tel:+12127724150">12127724150</a></li>
+           <li>
+            <svg class="icon2"><use href="./images/symbol-defs.svg#icon-smartphone"></svg> <a class="header__phone" href="tel:+12127724150">12127724150</a></li>
           </ul>
         </div>
       </div>
     </header>
 
     <section class="solution">
-      <div class="container">
+     
         <h1 class="solution__title">
           EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS
         </h1>
         <button class="button" type="button">Request our service</button>
-      </div>
+      
     </section>
 
     <!--hero section-->
@@ -70,8 +71,12 @@
     <main class="main">
       <section class="hero-section">
         <div class="container">
+
           <ul class="hero-ul">
             <li class="hs">
+               <div class=" hi"><svg class="hero-icon">
+                <use href="./images/symbol-defs.svg#icon-antenna"></use></svg>
+                </div>
               <h5>ATTENTION TO DETAILS</h5>
               <p class="hero-section__text">
                 We go into all the details and processes <br />of your business
@@ -79,6 +84,9 @@
               </p>
             </li>
             <li class="hs">
+               <div class=" hi"><svg class="hero-icon">
+                <use href="./images/symbol-defs.svg#icon-clock"></use></svg>
+                </div>
               <h5>PUNCTUALITY</h5>
               <p class="hero-section__text">
                 With us, you can feel safe and secure. <br />An important
@@ -86,13 +94,20 @@
               </p>
             </li>
             <li class="hs">
+               <div class=" hi"><svg class="hero-icon">
+                <use href="./images/symbol-defs.svg#icon-laptop"></use></svg>
+                </div>
               <h5>PLANNING</h5>
               <p class="hero-section__text">
                 You will be able to observe and <br />participate in every phase
                 of solution <br />development and implementation.
               </p>
             </li>
+            
             <li class="hs">
+               <div class=" hi"><svg class="hero-icon">
+                <use href="./images/symbol-defs.svg#icon-astronaut"></use></svg>
+                </div>
               <h5>MODERN TECHNOLOGIES</h5>
               <p class="hero-section__text">
                 We use innovative tools to solve <br />assigned tasks. It's time
@@ -106,19 +121,19 @@
       <!--what we do section-->
       <section class="what-we-do">
         <div class="container">
-          <h2>What we do</h2>
+          <h3 class="tittle">What we do</h3>
 
           <div class="about-img">
             <img
-              src="goit-markup-hw-01/images/photo-1.jpg"
+              src="images/photo-1.jpg"
               alt="we-write-code"
             />
             <img
-              src="goit-markup-hw-01/images/photo-2.jpg"
+              src="images/photo-2.jpg"
               alt="protection-for-mobile"
             />
             <img
-              src="goit-markup-hw-01/images/photo-3.jpg"
+              src="images/photo-3.jpg"
               alt="color-design"
             />
           </div>
@@ -130,21 +145,20 @@
       <section class="the-team">
         <!--rezolvat-->
         <div class="container">
-          <h2 class="team">Our Team</h2>
+          <h3 class="tittle">Our Team</h3>
           <ul>
             <li class="list-c">
               <img
-                src="goit-markup-hw-01/images/product-designer.jpg"
+                src="images/product-designer.jpg"
                 alt="product-designer"
                 width="150"
               />
               <h5>Christopher Walker</h5>
               <p>Product Designer</p>
-            </li>
-
+    
             <li class="list-c">
               <img
-                src="goit-markup-hw-01/images/frontend-developer.jpg"
+                src="images/frontend-developer.jpg"
                 alt="frontend-developer"
                 width="150"
               />
@@ -154,7 +168,7 @@
 
             <li class="list-c">
               <img
-                src="goit-markup-hw-01/images/marketing.jpg"
+                src="images/marketing.jpg"
                 alt="marketing"
                 width="150"
               />
@@ -164,7 +178,7 @@
 
             <li class="list-c">
               <img
-                src="goit-markup-hw-01/images/ui-designer.jpg"
+                src="images/ui-designer.jpg"
                 alt="ui-designer"
                 width="150"
               />
@@ -174,6 +188,29 @@
           </ul>
         </div>
       </section>
+      <div>
+        <h3 class="tittle">Regular Customers</h3>
+       <ul>
+        <li>
+          <svg><use href="./images/symbol-defs.svg#icon-yaco"/></svg>
+        </li>
+         <li>
+          <svg><use href="./images/symbol-defs.svg#icon-comapny-tg-hire"/></svg>
+        </li>
+         <li>
+          <svg><use href="./images/symbol-defs.svg#icon-company"/></svg>
+        </li>
+         <li>
+          <svg><use href="./images/symbol-defs.svg#icon-yaco"/></svg>
+        </li>
+         <li>
+          <svg><use href="./images/symbol-defs.svg#icon-brand"/></svg>
+        </li>
+         <li>
+          <svg><use href="./images/symbol-defs.svg#icon-company-tag-line"/></svg>
+        </li>
+       </ul>
+     </div>
     </main>
 
     <!--footer section-->
