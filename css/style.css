@@ -45,17 +45,14 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-.icon1 { 
+.icon1, .icon2 { 
   width: 16px;
   height: 12px;
 } 
-.icon2 {
-  width: 16px;
-    height: 12px;}
- .icon2:hover {
-   fill: var(--blue);
+
+ 
    
- }
+ 
 .header {
   width: 1600px;
   height: 80px;
@@ -122,12 +119,16 @@ a {
   line-height: 16px;
 }
 .header__info :hover {
-  display: flex;
   color: var(--blue);
+  fill: var(--blue);
 }
+
+
 .header__info :focus {
   color: var(--blue);
+  
 }
+
 .solution {
   background-color: rgba(47, 48, 58, 1);
   display: flex;
@@ -266,24 +267,43 @@ background-color: var(--button-color);
   margin-top: 94px;
 }
 
-.social-icon {
+.social-icon li {
+text-align: center;
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
   display: flex;
-    gap: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 30px;
+    border-radius: 50%;
+  
+}
+.social-icon li:hover {
+  stroke: var(--white);
+  background-color: var(--blue);
+}
+.social-icon li:hover svg {
+fill: var(--white);
 }
 
-
-.the-team ul {
+.team-list{
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
+}
+.social-icon {
+  display: flex;
+  gap: 10px;
+  
 }
 .team {
   padding-top: 94px;
   padding-bottom: 50px;
 }
-.list-c {
+.team-work {
+  display: flex;
+  align-items: center;
+      flex-direction: column;
   border-bottom: 94px;
   width: 270px;
   height: 428px;
@@ -445,12 +465,14 @@ fill: var(--blue);
    border: 1px solid rgba(175, 177, 184, 1);
    border-radius: 4px;
 }
-.all-costumers :hover {
-  border-color: rgb(32, 148, 243);
+.all-costumers :hover .svg-costumers {
+  
   fill: rgb(32, 148, 243);
     stroke: rgb(32, 148, 243);
-  
- 
+  }
+    .all-costumers :hover {
+  border-color: var(--blue);
+
 }
 .svg-costumers :hover {
    fill: rgb(32, 148, 243);;
@@ -526,7 +548,10 @@ padding-top: 16px;
     padding-bottom: 50px;
    
 }
+
+
 .icon {
+  
   fill: rgba(175, 177, 184, 1);
   width: 20px;
   height: 20px;
