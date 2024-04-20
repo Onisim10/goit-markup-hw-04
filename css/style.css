@@ -258,22 +258,27 @@ a {
 }
 
 .the-team {
-  background-color: var(--button-color);
+background-color: var(--button-color);
   display: flex;
   padding-bottom: 94px;
   width: 1600px;
   height: 708px;
   padding-top: 94px;
+  margin-top: 94px;
 }
+
+
 .the-team ul {
   display: flex;
   gap: 30px;
+  margin-bottom: 94px;
 }
 .team {
   padding-top: 94px;
   padding-bottom: 50px;
 }
 .list-c {
+  border-bottom: 94px;
   width: 270px;
   height: 428px;
   background-color: var(--white);
@@ -282,6 +287,7 @@ a {
   box-shadow:  0px 2px 1px 0px rgba(0, 0, 0, 0.2);
      0px 1px 1px 0px rgba(0, 0, 0, 0.14);
      0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  
 }
 
 .team-icons {
@@ -402,6 +408,36 @@ fill: var(--blue);
   height: 404px;
   border: 1px solid rgba(238, 238, 238, 1);
 }
+.costumers {
+  
+  width: 1170px;
+  height: 184px;
+  padding-top: 94px;
+  
+}
+.all-costumers {
+  
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.costumers-svg {
+  
+  text-align: center;
+  width: 170px;
+  height: 92px;
+   border: 1px solid rgba(175, 177, 184, 1);
+   border-radius: 4px;
+   
+}
+.svg-costumers {
+ 
+  width: 106px;
+  height: 60px;
+padding-top: 16px;
+  padding-bottom: 16px;
+}
 .footer {
   width: 1600px;
   height: 251px;
@@ -412,6 +448,8 @@ fill: var(--blue);
   line-height: 16px;
   letter-spacing: 0.03em;
   padding-top: 60px;
+  margin-top: 94px;
+  
 }
 .footer__adr:hover,
 .footer__mail:hover,
@@ -468,4 +506,8 @@ fill: var(--blue);
     text-align: center;
     padding-bottom: 50px;
    
+}
+.svg {
+  width: 44px;
+  height: 44px;
 }
