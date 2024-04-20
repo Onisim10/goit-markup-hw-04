@@ -260,11 +260,17 @@ a {
 .the-team {
 background-color: var(--button-color);
   display: flex;
-  padding-bottom: 94px;
   width: 1600px;
   height: 708px;
   padding-top: 94px;
   margin-top: 94px;
+}
+
+.social-icon {
+  display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 
@@ -408,6 +414,15 @@ fill: var(--blue);
   height: 404px;
   border: 1px solid rgba(238, 238, 238, 1);
 }
+.img-p :hover {
+ box-shadow:  
+  1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+  
+
 .costumers {
   
   width: 1170px;
@@ -429,10 +444,20 @@ fill: var(--blue);
   height: 92px;
    border: 1px solid rgba(175, 177, 184, 1);
    border-radius: 4px;
-   
 }
-.svg-costumers {
+.all-costumers :hover {
+  border-color: rgb(32, 148, 243);
+  fill: rgb(32, 148, 243);
+    stroke: rgb(32, 148, 243);
+  
  
+}
+.svg-costumers :hover {
+   fill: rgb(32, 148, 243);;
+}
+
+.svg-costumers {
+ fill: rgba(175, 177, 184, 1);
   width: 106px;
   height: 60px;
 padding-top: 16px;
@@ -490,13 +515,7 @@ padding-top: 16px;
   padding-top: 28px;
   padding-bottom: 12px;
 }
-.icon {
-  width: 20px;
-  height: 20px;
-}
-.icon :hover {
-  fill: var(--blue);
-}
+
 .tittle {
   font-family: Roboto;
     font-size: 36px;
@@ -507,7 +526,8 @@ padding-top: 16px;
     padding-bottom: 50px;
    
 }
-.svg {
-  width: 44px;
-  height: 44px;
+.icon {
+  fill: rgba(175, 177, 184, 1);
+  width: 20px;
+  height: 20px;
 }
