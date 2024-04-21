@@ -273,10 +273,10 @@ text-align: center;
   height: 44px;
   margin-top: 16px;
   display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    border-radius: 50%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-radius: 50%;
   
 }
 .social-icon li:hover {
@@ -429,13 +429,14 @@ fill: var(--blue);
   letter-spacing: 0.06em;
   padding-bottom: 20px;
 }
-.img-p {
+.img-list {
   width: 370px;
   height: 404px;
   border: 1px solid rgba(238, 238, 238, 1);
 }
-.img-p :hover {
- box-shadow:  
+.img-list :hover {
+  cursor: pointer;
+  box-shadow:  
   1px 4px 6px 0px rgba(0, 0, 0, 0.16);
   0px 4px 4px 0px rgba(0, 0, 0, 0.06);
   0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -548,8 +549,58 @@ padding-top: 16px;
     padding-bottom: 50px;
    
 }
+.tittle-footer {
+  font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    
+    
+}
 
+.footer1, .footer2 {
+ display: flex;
 
+}
+
+.footer2-p2 {
+ 
+  width: 206px;
+  height: 80px;
+  padding-top: 5px;
+  padding-left: 70px;
+}
+.icon-footer {
+  fill: rgba(175, 177, 184, 1);
+    width: 20px;
+    height: 20px;
+}
+.footer-social-icon {
+  display: flex;
+  gap: 10px;
+}
+.footer-social-icon li {
+  text-align: center;
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-icon li:hover {
+  stroke: var(--white);
+  background-color: var(--blue);
+}
+
+.footer-social-icon li:hover svg {
+  fill: var(--white);
+}
 .icon {
   
   fill: rgba(175, 177, 184, 1);
