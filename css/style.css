@@ -498,7 +498,7 @@ a {
   color: var(--black);
 }
 .footer__adr {
-  cursor: pointer;
+  
   font-style: normal;
   color: var(--white);
   padding-top: 28px;
@@ -531,21 +531,30 @@ a {
   color: var(--white);
 }
 
-.footer1,
-.footer2 {
-  display: flex;
+.tittle-footer {
+  font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    color: var(--white);
+
+
 }
 
-.footer2-p2 {
+
+
+ .footer2-p2 {
   width: 206px;
   height: 80px;
-  padding-top: 5px;
-  padding-left: 70px;
+  margin-top: -75px;
+   padding-left: 516px;
+  
 }
 .icon-footer {
   fill: rgba(175, 177, 184, 1);
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 .footer-social-icon {
   display: flex;
@@ -553,15 +562,23 @@ a {
 }
 .footer-social-icon li {
   text-align: center;
-  width: 44px;
-  height: 44px;
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-icon li:hover {
+  stroke: var(--white);
+  background-color: var(--blue);
+}
+
+.footer-social-icon li:hover svg {
+  fill: var(--white);
 }
 .footer-social-icon li:hover {
   stroke: var(--white);
