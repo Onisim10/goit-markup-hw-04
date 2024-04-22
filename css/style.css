@@ -419,11 +419,14 @@ a {
   height: 404px;
   border: 1px solid rgba(238, 238, 238, 1);
 }
-.img-list :hover {
+ .images li
+ :hover  {
+ 
   cursor: pointer;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
+
 
 .costumers {
   width: 1170px;
@@ -543,13 +546,15 @@ a {
 }
 
 
-
- .footer2-p2 {
+.footer .container {
+  display: flex;
+}
+ .footer2 {
   width: 206px;
   height: 80px;
-  margin-top: -75px;
-   padding-left: 516px;
-  
+  padding-left: 70px;
+  padding-top: 15px;
+ 
 }
 .icon-footer {
   fill: rgba(175, 177, 184, 1);
