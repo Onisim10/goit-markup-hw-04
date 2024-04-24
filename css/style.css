@@ -114,11 +114,14 @@ a {
   font-size: 14px;
   line-height: 16px;
 }
-.header__info :hover {
+.header__info :hover a {
   color: var(--blue);
-  fill: var(--blue);
+  
 }
 
+.header__info :hover svg {
+  fill: var(--blue);
+}
 .header__info :focus {
   color: var(--blue);
 }
